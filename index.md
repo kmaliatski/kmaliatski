@@ -44,3 +44,5 @@ Here are some of my projects:
   </div>
 
 </div>
+
+Update homepage to include project tiles
