@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: "Home"
 ---
 
 <link rel="stylesheet" href="/assets/css/style.css">
