@@ -1,9 +1,9 @@
 title: Katrin Maliatski
-description: Personal portfolio and data projects
+description: Personal site built with the Minimal Jekyll theme.
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-feed
 
-# Add this line:
+# Ensure these are present
 include:
   - assets/css
