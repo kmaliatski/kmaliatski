@@ -7,17 +7,23 @@
 
 .project-tile {
   background-color: #f9f9f9;
-  padding: 1.2rem;
+  padding: 1rem 1.2rem;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.project-tile:hover {
+  transform: translateY(-5px);
 }
 
 .project-tile h3 {
   margin-top: 0;
+  font-size: 1.1rem;
 }
 
 .project-tile a {
-  color: #0366d6;
   text-decoration: none;
+  color: #0366d6;
   font-weight: bold;
 }
