@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+<link rel="stylesheet" href="/assets/css/custom.css">
+
 # 👋 Hi, I'm Katrin
 
 Welcome to my portfolio! I’m a data analyst who loves turning insights into impact.
