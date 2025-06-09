@@ -1,0 +1,5 @@
+title: Katrin Maliatski
+description: Personal portfolio and data projects
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-feed
