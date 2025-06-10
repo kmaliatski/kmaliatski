@@ -2625,7 +2625,7 @@ input, select, textarea {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 	            url('images/header.jpg');
 	background-size: cover;
-	background-position: center 95%; /* Shift the focus downwards */
+	background-position: center 10%; /* Shift the focus downwards */
 	background-repeat: no-repeat;
 	color: #ffffff;
 	text-align: center;
