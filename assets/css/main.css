@@ -290,6 +290,49 @@ input, select, textarea {
 
 		}
 
+/* Custom Flex Layout for About and Projects */
+#content.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 2em;
+	padding: 2em;
+}
+
+/* About section (left column) */
+#about {
+	flex: 1;
+	min-width: 280px;
+}
+
+/* Projects section (right column) */
+#projects {
+	flex: 2;
+	min-width: 400px;
+}
+
+/* Tile grid inside Projects */
+.project-tiles {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5em;
+}
+
+.project-tiles .work-item {
+	width: calc(50% - 1em);
+}
+
+/* Responsive layout for small screens */
+@media screen and (max-width: 768px) {
+	#content.container {
+		flex-direction: column;
+	}
+
+	.project-tiles .work-item {
+		width: 100%;
+	}
+}
+
 /* Row */
 
 	.row {
