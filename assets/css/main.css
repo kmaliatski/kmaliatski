@@ -2625,7 +2625,7 @@ input, select, textarea {
 	background-color: rgba(70, 130, 180, 0.8); /* Backup color */
 	background-image: url('images/header.jpg');
 	background-size: cover;
-	background-position: center;
+	background-position: center center;
 	background-repeat: no-repeat;
 	color: #ffffff;
 	text-align: center;
