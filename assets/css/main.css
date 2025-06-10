@@ -2620,12 +2620,12 @@ input, select, textarea {
 #header {
 	position: relative;
 	width: 100%;
-	height: auto;
+	height: 300px; /* You can adjust this height as needed */
 	padding: 2em 2em;
-	background-color: rgba(70, 130, 180, 0.8); /* Backup color */
-	background-image: url('images/header.jpg');
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+	            url('images/header.jpg');
 	background-size: cover;
-	background-position: center center;
+	background-position: center 65%; /* Shift the focus downwards */
 	background-repeat: no-repeat;
 	color: #ffffff;
 	text-align: center;
