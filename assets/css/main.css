@@ -2620,17 +2620,16 @@ input, select, textarea {
 #header {
   background-image: url('images/header.jpg');
   background-size: cover;
-  background-position: center 40%;
+  background-position: center 40%; /* Show middle third */
   background-repeat: no-repeat;
-  height: 300px; /* Adjust as needed */
   width: 100%;
+  padding: 2em 1em; /* Add padding to control visible area */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
   color: white;
-  padding: 1em; /* Optional: give breathing room */
 }
 
 #header h1,
