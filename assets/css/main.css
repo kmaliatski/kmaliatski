@@ -2620,9 +2620,9 @@ input, select, textarea {
 #header {
   background-image: url('images/header.jpg');
   background-size: cover;
-  background-position: center 40%;  /* Fine-tune: 40%-50% usually shows the middle */
+  background-position: center 40%;
   background-repeat: no-repeat;
-  height: 300px; /* You can adjust this as needed */
+  height: 300px; /* Adjust as needed */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -2630,18 +2630,7 @@ input, select, textarea {
   flex-direction: column;
   text-align: center;
   color: white;
-}
-
-#header .image.avatar {
-	margin: 0 0 1em 0;
-	width: 6.25em;
-	display: block;
-}
-
-#header .image.avatar img {
-	border-radius: 100%;
-	width: 100%;
-	height: auto;
+  padding: 1em; /* Optional: give breathing room */
 }
 
 #header h1,
