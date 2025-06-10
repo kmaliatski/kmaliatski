@@ -2618,18 +2618,13 @@ input, select, textarea {
 /* Header */
 
 #header {
-  background-image: url('images/header.jpg');
-  background-size: cover;
-  background-position: center 65%;
-  background-repeat: no-repeat;
-  width: 100%;
-  padding: 2em 1em; /* Add padding to control visible area */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  color: white;
+  background-image: url('images/header.jpg') !important;
+  background-size: cover !important;
+  background-position: center 65% !important; /* Adjust to show lower part of image */
+  background-repeat: no-repeat !important;
+  padding: 4em 2em !important;
+  height: 300px !important;
+  color: white !important;
 }
 
 #header h1,
