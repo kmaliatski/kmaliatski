@@ -2622,7 +2622,7 @@ input, select, textarea {
   background-size: cover;
   background-position: center 40%;  /* Fine-tune: 40%-50% usually shows the middle */
   background-repeat: no-repeat;
-  height: 400px; /* You can adjust this as needed */
+  height: 300px; /* You can adjust this as needed */
   width: 100%;
   display: flex;
   justify-content: center;
