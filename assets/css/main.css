@@ -2620,12 +2620,17 @@ input, select, textarea {
 #header {
   background-image: url('images/header.jpg') !important;
   background-size: cover !important;
-  background-position: center 30% !important; /* Adjust to show lower part of image */
+  background-position: center 30% !important;
   background-repeat: no-repeat !important;
   padding: 4em 2em !important;
   height: 300px !important;
   color: white !important;
   text-align: center;
+  
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
 }
 
 #header h1,
@@ -2635,7 +2640,7 @@ input, select, textarea {
 #header h5,
 #header h6,
 #header strong {
-  color: #ffffff; /* Customize as needed */
+  color: #ffffff;
 }
 
 /* Footer */
