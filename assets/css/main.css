@@ -2988,25 +2988,30 @@ input, select, textarea {
 /* Large */
 
 	@media screen and (max-width: 1280px) {
-
-		/* Header */
-
-			#header {
-				padding: 6em 3em 3em 3em;
-				width: 30%;
-			}
-
-				#header h1 {
-					font-size: 1.25em;
-				}
-
-					#header h1 br {
-						display: none;
-					}
-
-				#header > .inner {
-					margin-bottom: 0;
-				}
+		  
+		#header {
+		    background-image: url('images/header.jpg');
+		    background-size: cover;
+		    background-position: center 50%;
+		    background-color: transparent !important;
+		    padding: 3em 2em;
+		    width: 100%;
+		    color: white;
+		    text-align: center;
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: flex-start;
+		    align-items: center;
+		  }
+		
+			  #header h1 {
+			    font-size: 1.5em;
+			    color: white !important;
+			  }
+			
+				  #header > .inner {
+				    margin-bottom: 0;
+				  }
 
 		/* Footer */
 
@@ -3034,39 +3039,45 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		/* Basic */
-
-			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
-				display: none;
-			}
-
-		/* List */
-
-			ul.icons li .icon {
-				font-size: 1.25em;
-			}
-
-		/* Header */
-
-			#header {
-				background-attachment: scroll;
-				background-position: top left, center center;
-				background-size: auto,		cover;
-				left: auto;
-				padding: 6em 4em;
-				position: relative;
-				text-align: center;
-				top: auto;
-				width: 100%;
-				display: block;
-			}
-
-				#header h1 {
-					font-size: 1.75em;
-				}
-
-					#header h1 br {
-						display: inline;
-					}
+		  h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+		    display: none;
+		  }
+		
+		  /* List */
+		  ul.icons li .icon {
+		    font-size: 1.25em;
+		    color: white !important; /* Ensure icons are white */
+		  }
+		
+		  /* Header */
+		  #header {
+		    background-attachment: scroll;
+		    background-image: url('images/header.jpg'); /* Add this if missing */
+		    background-position: center 60% !important; /* Adjust vertical focus */
+		    background-size: cover !important;
+		    background-color: transparent !important; /* Remove black box */
+		    left: auto;
+		    top: auto;
+		    width: 100%;
+		    padding: 2em 1em !important;
+		    text-align: center;
+		    position: relative;
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: flex-start;
+		    align-items: center;
+		    color: white;
+		  }
+		
+			  #header h1 {
+			    font-size: 1.75em;
+			    margin: 0.5em 0;
+			    color: white !important;
+			  }
+		
+				  #header h1 br {
+				    display: inline;
+				  }
 
 		/* Footer */
 
@@ -3114,50 +3125,30 @@ input, select, textarea {
 /* Small */
 
 	@media screen and (max-width: 736px) {
-
-		/* Basic */
-
-			h1 {
-				font-size: 1.5em;
-			}
-
-			h2 {
-				font-size: 1.2em;
-			}
-
-			h3 {
-				font-size: 1em;
-			}
-
-		/* Section/Article */
-
-			section.special, article.special {
-				text-align: center;
-			}
-
-			header.major h2 {
-				font-size: 1.35em;
-			}
-
-		/* List */
-
-			ul.labeled-icons li {
-				padding-left: 2em;
-			}
-
-				ul.labeled-icons li h3 {
-					line-height: 1.75em;
-				}
-
-		/* Header */
-
-			#header {
-				padding: 2.25em 1.5em;
-			}
-
-				#header h1 {
-					font-size: 1.35em;
-				}
+		
+	  #header {
+	    background-image: url('images/header.jpg');
+	    background-size: cover;
+	    background-position: center 55%;
+	    background-color: transparent !important;
+	    padding: 2em 1em;
+	    width: 100%;
+	    color: white;
+	    text-align: center;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-start;
+	    align-items: center;
+	  }
+	
+		  #header h1 {
+		    font-size: 1.2em;
+		    color: white !important;
+		  }
+		
+			  ul.icons li .icon {
+			    color: white !important;
+			  }
 
 		/* Footer */
 
@@ -3192,16 +3183,34 @@ input, select, textarea {
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
+	  #header {
+	    background-image: url('images/header.jpg');
+	    background-size: cover;
+	    background-position: center 60%;
+	    background-color: transparent !important;
+	    padding: 1.5em 1em;
+	    width: 100%;
+	    color: white;
+	    text-align: center;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-start;
+	    align-items: center;
+	  }
+	
+		  #header h1 br {
+		    display: none;
+		  }
+		
+			  #header h1 {
+			    font-size: 1em;
+			    color: white !important;
+			  }
+			
+				  ul.icons li .icon {
+				    color: white !important;
+				  }
 
-		/* Header */
-
-			#header {
-				padding: 4.5em 1.5em;
-			}
-
-				#header h1 br {
-					display: none;
-				}
 
 		/* Footer */
 
