@@ -3228,3 +3228,34 @@ input, select, textarea {
 			}
 
 	}
+
+/* Full-tile clickability */
+.work-item a.tile-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding: 1em;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.work-item a.tile-link:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* Image styling inside tile */
+.work-item img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.75em;
+}
+
+.work-item h3 {
+  margin-top: 0;
+  font-size: 1.1em;
+}
+
+.work-item p {
+  margin-bottom: 0;
+  font-size: 0.95em;
+}
