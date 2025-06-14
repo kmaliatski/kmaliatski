@@ -1,0 +1,4 @@
+R/Final_Project.R
+R/401 Homework 1.pdf
+R/Final_Report_RStudio_Katrin_Maliatski.pdf
+R/Midterm_Trainsplotting.pdf
