@@ -3259,3 +3259,11 @@ input, select, textarea {
   margin-bottom: 0;
   font-size: 0.95em;
 }
+
+/* Project Thumbnail Images */
+.project-tiles img {
+  width: 100%;
+  height: 200px;        /* Adjust to the height you want */
+  object-fit: cover;    /* Ensures image fills container without stretching */
+  border-radius: 8px;   /* Optional: rounds corners */
+}
