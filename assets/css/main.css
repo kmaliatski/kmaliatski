@@ -3267,3 +3267,17 @@ input, select, textarea {
   object-fit: cover;    /* Ensures image fills container without stretching */
   border-radius: 8px;   /* Optional: rounds corners */
 }
+
+.about-headshot {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.about-headshot img {
+  width: 100px;            /* Small circle */
+  height: 100px;
+  border-radius: 50%;      /* Circle crop */
+  object-fit: cover;       /* Ensures proper cropping */
+  border: 2px solid #fff;  /* Optional: white border */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+}
