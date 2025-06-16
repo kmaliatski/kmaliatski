@@ -3274,9 +3274,9 @@ input, select, textarea {
 }
 
 .about-headshot img {
-  width: 180px;            /* Larger size */
-  height: 180px;
+  width: 150px;            /* Larger size */
+  height: 150px;
   border-radius: 50%;      /* Circular crop */
   object-fit: cover;       /* Ensures the image fills the circle */
-  object-position: center 20%; /* Moves focus upward in the image */
+  object-position: center 10% !important; /* Moves focus upward in the image */
 }
