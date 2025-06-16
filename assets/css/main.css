@@ -3269,16 +3269,14 @@ input, select, textarea {
 }
 
 .about-headshot {
-  text-align: left;
+  text-align: left; /* or 'center' if you prefer */
   margin-bottom: 1.5em;
 }
 
 .about-headshot img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center 10%; /* Adjust vertical focus (lower values = show higher part of head) */
-  border: 2px solid #fff;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  width: 180px;            /* Larger size */
+  height: 180px;
+  border-radius: 50%;      /* Circular crop */
+  object-fit: cover;       /* Ensures the image fills the circle */
+  object-position: center 20%; /* Moves focus upward in the image */
 }
