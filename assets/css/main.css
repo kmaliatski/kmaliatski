@@ -3278,8 +3278,7 @@ input, select, textarea {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center 50%; /* Adjust vertical focus (lower values = show higher part of head) */
-  transform: scale(1.3); /* Slight zoom-in */
+  object-position: center 10%; /* Adjust vertical focus (lower values = show higher part of head) */
   border: 2px solid #fff;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
 }
